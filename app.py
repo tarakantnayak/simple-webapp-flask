@@ -4,11 +4,11 @@ app = Flask(_name_)
 
 @app.route("/")
 def main():
-	retrun "Welcome Budy!"
+	retrun "Welcome Budy"
 	
 @app.route("/how are you")
 def hello():
-	return "I am good, how about you?"
+	return "I am good, how about you"
 	
 if _name_ == "_main_":
 	app.run()
